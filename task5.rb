@@ -24,7 +24,6 @@ puts "Введите год"
 year = gets.chomp.to_i
 
 result_count = 0
-
 (1..month - 1).each do |month_in_range|
   result_count += days_in_month(month_in_range, year)
 end

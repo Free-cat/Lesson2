@@ -13,7 +13,5 @@ month_hash = {}
 end
 
 month_hash.each do |key, value|
-  if value == 30
-    puts "В #{key} #{value} дней"
-  end
+  puts "В #{key} #{value} дней" if value == 30
 end
